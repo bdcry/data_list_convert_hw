@@ -1,11 +1,13 @@
 import React from "react";
 import "./App.css";
-import { treeDataBase } from "./DataConvert";
+// import { treeDataBase } from "./DataConvert";
+import { treeArray } from "./DataConvert";
 import { EditTwoTone, BookTwoTone, FolderOpenTwoTone } from "@ant-design/icons";
 import { Menu, Space } from "antd";
 
 function App() {
-  console.log(treeDataBase);
+  // console.log(treeDataBase);
+  console.log(treeArray);
   return (
     <div className="App">
       <header className="App-header">
