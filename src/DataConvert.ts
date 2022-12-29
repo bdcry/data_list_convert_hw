@@ -42,7 +42,7 @@ export const convertArray = (arr: DataResType[], parentNum: number): DataType[] 
   if(tempArr.length === 0) tempArr = undefined;
   return tempArr;
 }
-export const treeArray = convertArray(database, 45);
+export const treeArray = convertArray(database, 0);
 
 
 
