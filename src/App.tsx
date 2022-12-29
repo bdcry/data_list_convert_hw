@@ -1,7 +1,6 @@
 import React from "react";
 import "./App.css";
 import { treeArray } from "./DataConvert";
-import { EditTwoTone, BookTwoTone, FolderOpenTwoTone } from "@ant-design/icons";
 import { Menu, Space } from "antd";
 
 function App() {
